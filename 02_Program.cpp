@@ -8,7 +8,7 @@ int main(){
     cin>>x0>>x1;
     while(x1-x0>0.0001){
         x2=(x0+x1)/2;
-        cout<<"value of x2: "<<endl;
+        cout<<"value of x2: "<<x2<<endl;
         if(f(x2)<0){
             x0=x2;
         }
